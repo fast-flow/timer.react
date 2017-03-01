@@ -18,3 +18,13 @@ var render = ReactDOM.render
         render(<Demo />, node)
     })
 })(document.getElementById('example__cache-undefined_node'))
+
+
+// Begin immediately
+;(function (node) {
+    if (!node) {return}
+    require(['./begin-immediately.demo.js'], function (Demo) {
+        Demo = Demo.default || Demo
+        render(<Demo />, node)
+    })
+})(document.getElementById('example_begin-immediately_node'))

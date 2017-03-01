@@ -5,7 +5,7 @@ http://github.com/fast-flow/react
 ### Development
 
 ```shell
-npm run doc
+npm run dev
 # or npm run doc:debug
 npm run js
 # npm run js:debug

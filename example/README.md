@@ -25,7 +25,7 @@ html .m-btn--timing {
 [./cache-undefined.demo.js](./cache-undefined.demo.js)
 
 
-## cache
+## Cache
 
 > Cache is kept in the localStorage
 
@@ -36,3 +36,15 @@ html .m-btn--timing {
     file: './cache.demo.js'
 } -->
 [./cache.demo.js](./cache.demo.js)
+
+
+## Begin immediately
+
+
+<div id="example_begin-immediately_node" class="fast-flow-demo">loading...</div>
+
+<!--MR-R {
+    type: "pre",
+    file: './begin-immediately.demo.js'
+} -->
+[./begin-immediately.demo.js](./begin-immediately.demo.js)
